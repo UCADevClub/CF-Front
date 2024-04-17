@@ -1,0 +1,30 @@
+.login-page-hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    .login{
+        margin-right: 100px;
+    }
+    z-index: 1;
+    .img-1-loginpage{
+        position:fixed;
+        top:0;
+        left:0;
+        width:1500px;
+        height:500px;
+        pointer-events: none;
+        z-index: 0;
+    }
+    .img-loginpage{
+        z-index: 1;
+    }
+}
+.body-loginpage {
+    margin:0;
+    padding:0;
+    background:linear-gradient(to bottom right, white,#fbddf7);
+}
+
+
+
+

@@ -1,0 +1,141 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+.form-wrapper-loginpage {
+    background-color: none;
+    width:400px;
+    position: relative;
+}
+.title-loginpage {
+    font-weight: bold;
+    font-size:24px;
+    text-align: center;
+    margin-bottom:1px;
+    margin-top:1px;
+    line-height: 24px;
+}
+.title-2-loginpage {
+    margin-bottom:15px;
+}
+
+
+.form-loginpage {
+    width: 100%;
+    border:2px solid #ccc;
+    position: relative;
+    background-color: white;
+    display: inline-left;
+    flex-direction: column;
+
+    .name-surname{
+        font-size: 16px;
+        display: flex;
+
+    }
+    .input-loginpage {
+        width:100%;
+        margin:0 auto;
+        padding:12px  8px;
+        border-radius: 7px;
+        border: none;
+        outline: none; 
+        box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+        margin-top:15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .eye-icon-loginpage {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        margin-bottom:20px;
+    }
+    .flex-loginpage {
+        display: flex;
+        justify-content: space-between;
+        align-items: right;
+        font-size:12px;
+    }
+
+    .remember-loginpage {
+        display: flex;
+    }
+    .remember-me-loginpage {
+        display: inline-block;
+        margin-top:5px;
+        font-size: 10px;
+    }
+
+    .password-field-loginpage {
+        width: 100%;
+        position: relative;
+
+        .eye-icon {
+            position: absolute;
+            top: 25%;
+            right: 10px;
+
+        }
+    }
+
+    .forgot-loginpage {
+        font-size: 12px;
+        .forgot-password {
+            display: inline-block;
+        }
+    }
+    .submit-in-loginpage {
+        font-size:16px;
+        display: flex;
+        width: 100%;
+        padding-top:10px;
+        padding-bottom:7px;
+        border-radius:7px;
+        color:black;
+
+        .submit{
+        width: 100%;
+        background-color: black;
+        color:white;
+        font-weight: bold;
+        font-size: 16px;
+        padding-top:10px;
+        padding-bottom:7px;
+        border-radius:7px;   
+        border:none;     
+        }
+
+        .cancel-loginpage {
+        color:black;
+        width: 100%;
+        border:none;
+        padding-top:10px;
+        padding-bottom:7px;
+        border-radius:7px;
+        font-size:16px;
+        font-weight:bold;
+        }
+    }
+
+    .registration-loginpage {
+        text-align: center;
+        justify-content: space-between;
+        display: flex;
+        font-size: 10px;
+        margin-left:100px;
+        margin-right: 100px;
+
+        .registration-1-loginpage {
+            color:grey;
+            text-decoration: none;
+        }
+        .registration-2-loginpage {
+            color:black;
+            font-weight: bold;
+            border: none;
+            text-decoration: none;
+        }
+    }
+}
+
