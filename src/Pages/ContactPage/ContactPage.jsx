@@ -1,7 +1,7 @@
 import React from 'react';
-import ContactForm from '../Components/Contact/form/ContactForm';
-import ContactInfo from '../Components/Contact/info/ContactInfo';
-import ContactHelp from '../Components/Contact/questions/ContactHelp';
+import ContactForm from '../../Components/Contact/ContactForm/ContactForm.jsx';
+import ContactInfo from '../../Components/Contact/ContactInfo/ContactInfo.jsx';
+import ContactHelp from '../../Components/Contact/ContactHelp/ContactHelp.jsx';
 import './ContactPage.css'
 
 
