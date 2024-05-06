@@ -1,0 +1,35 @@
+.information{
+    background-color: white;
+    display: flex;
+
+    .figure-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .names-info{
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .Location{
+        flex:auto;
+        font-size: 10px;
+    }
+    .Phone-Number{
+        flex: auto;
+        font-size: 10px;
+
+    }
+    .Email-Address{
+        flex: auto;
+        font-size: 10px;
+    }
+    img{
+        width: 25px;
+        height: 25px;
+        margin-bottom: 20px;
+        
+    }
+}

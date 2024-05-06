@@ -1,0 +1,69 @@
+/* *, *::after, *::before{
+    box-sizing: border-box;
+    
+} */
+.form-wrapper{
+    width: 300px;
+}
+.form-contact{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 7px rgb(133, 126, 126);
+    border-radius: 10px;
+    height: 400px;
+    padding-left: 40px;
+    padding-top:40px;
+    padding-right:40px;
+    border-top: 5px solid #F8C76C;
+
+
+    .submit{
+        left:11%;
+        background-color: #F8C76C;
+        border: none;
+        border-radius: 6px;
+        color:white;
+        font-weight: bold;
+        font-family: Montserrat;
+        width: 100px;
+        height: 30px;
+         
+    }
+
+    .input{
+        width:100%;
+        margin-bottom:10px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        border-radius: 5px;
+        border: 1px solid #bcb6b6;
+        box-shadow: none;
+        outline: none; /* you can restyle*/
+        margin-top:15px;
+        display: flex;
+        justify-content: space-between; 
+        margin-top:2px;
+    }
+    .names{
+        font-size: 12px;
+        font-family: Montserrat;
+        margin-bottom: 20px;
+        margin-top:20px;
+
+        
+    }
+    .name-surname{
+        display: flex;
+        font-size: 16px;
+        .firstName{
+            margin-right:20px;
+        }
+    }
+    textarea{
+        height: 100px;;
+    }
+    
+    
+}

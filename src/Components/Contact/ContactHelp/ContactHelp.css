@@ -1,0 +1,31 @@
+.help-contact1{
+    width: 600px;
+    font-size: 15px;
+    font-family: Montserrat;
+    h1{
+        font-weight: 550;
+        font-size: 25px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .names-1{
+        margin-bottom: 10px;
+    }
+    .option{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    img{
+        width: 20px;
+        margin-right: 10px;
+    }
+    button{
+        background: none;
+        border:none;
+    }
+    
+}
+h3{
+    color:#F8C76C;
+}

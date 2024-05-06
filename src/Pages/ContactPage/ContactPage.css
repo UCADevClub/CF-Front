@@ -1,0 +1,36 @@
+.contact-help-form{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.contactpage-form{
+   flex: 1;
+   margin-left: 20px;
+   margin-right: 50px;
+   padding-top: 20px;
+   
+
+}
+.contactpage-help{
+    flex:2;
+    margin-left: 50px;
+    width: 50px;
+    
+    
+}
+.contact-info{
+    .information{
+        background-color: black;
+        margin-top: 60px;
+        position: center;
+        width: 1200px;
+        height: 200px;
+    }
+    
+    
+}
+   
+
