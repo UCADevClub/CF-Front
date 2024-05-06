@@ -3,8 +3,14 @@
 }
 
 .page-navbar-main {
+    height: 80px;
+    justify-content: end;
     display: flex;
     position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 3;
+    column-gap: 330px;
 }
 
 .navbar-main {
@@ -20,7 +26,6 @@
     display: flex;
     justify-content: center;
     padding-top:10px;
-    width: 1630px;
 }
 
 .nav-link-1-main {
@@ -39,6 +44,10 @@
     margin: 10px 20px;
 }
 
+.search-login-navbar-main {
+    display: flex;
+}
+
 .login-navbar-main {
     align-self: center;
     color: white;
@@ -53,6 +62,7 @@
     height: 41px;
     border-radius: 33px;
     padding-top: 7px;
+    margin-right: 34px;
 }
 
 .nav-create-main {

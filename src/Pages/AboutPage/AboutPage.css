@@ -1,0 +1,137 @@
+
+.content-aboutpage {
+    background: linear-gradient(180deg, white, #FBD1EE);
+    padding-left: 150px;
+}
+
+.section-1-aboutpage {
+    display: flex;
+}
+
+.text-1-aboutpage {
+    margin-top: 248px;
+    width: 1120px;
+}
+
+.circle-1-aboutpage {
+    margin-left: 249px;
+    margin-top: 438px;
+    width: 172px;
+    height: 172px;
+    border: 6px solid #F8C76C;
+    border-radius: 50%;
+}
+
+.section-2-aboutpage {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.section-3-aboutpage {
+    display: flex;
+}
+
+.hook-1-aboutpage {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 78.02px;
+    margin: 0;
+    margin-left: -38px;
+}
+
+.quote-aboutpage {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 48.76px;
+    width: 808px;
+    margin: 0;
+}
+
+.sign-and-hook-aboutpage {
+    display: flex;
+}
+
+.signature-aboutpage {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.26px;
+    margin-top: 10px;
+}
+
+.hook-2-aboutpage {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 78.02px;
+    margin-top: 0;
+    margin-left: 392px;
+}
+
+.portrait-1-aboutpage {
+    height: 300px;
+    margin-left: 119px;
+}
+
+.section-4-aboutpage {
+    display: flex;
+    height: 900px;
+}
+
+.decoration-aboutpage {
+    min-width: 643px;
+    position: relative;
+    left: -53px;
+}
+
+.portrait-2-aboutpage {
+    position: absolute;
+    top: 0;
+    left: 9px;
+    z-index: 1;
+}
+
+.portrait-3-aboutpage {
+    position: absolute;
+    top: 397px;
+    left: 0;
+    z-index: 1;
+}
+
+.portrait-4-aboutpage {
+    position: absolute;
+    top: 166px;
+    left: 376px;
+    z-index: 1;
+}
+
+.circle-2-aboutpage {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    width: 567px;
+    height: 567px;
+    border: 6px solid #F8C76C;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.text-3-aboutpage {
+    margin-left: 108px;
+    margin-right: 50px;
+}
+
+.title-aboutpage {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117.02px;
+    height: 132px;
+    margin: 0
+}
+
+.description-aboutpage {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29.26px;
+    margin: 30px 0;
+}
