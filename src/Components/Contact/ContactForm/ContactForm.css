@@ -6,6 +6,7 @@
     width: 300px;
 }
 .form-contact{
+    background-color: white;
     width: 370px;
     display: flex;
     flex-direction: column;
