@@ -28,7 +28,6 @@
 .contact-info{
     .information{
         margin-top: 60px;
-        position: center;
         width: 1200px;
         height: 200px;
     }
@@ -39,7 +38,10 @@
     font-size: 22px;
     letter-spacing: 0.36em;
     color: #FB7178;
-    margin-top: 77px;
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-bottom: 20px;
 }
 
 .logo-crowd-contactpage {
