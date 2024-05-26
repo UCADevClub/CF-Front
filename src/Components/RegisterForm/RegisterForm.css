@@ -1,12 +1,12 @@
 *, *::after, *::before{
     box-sizing: border-box;
 }
-.form-wrapper-loginpage {
+.form-wrapper-registrpage {
     background-color: none;
     width:400px;
     position: relative;
 }
-.title-loginpage {
+.title-registrpage {
     font-weight: bold;
     font-size:24px;
     text-align: center;
@@ -14,12 +14,12 @@
     margin-top:1px;
     line-height: 24px;
 }
-.title-2-loginpage {
+.title-2-registrpage {
     margin-bottom:15px;
 }
 
 
-.form-loginpage {
+.form-registrpage {
     width: 100%;
     border:2px solid #ccc;
     position: relative;
@@ -27,12 +27,12 @@
     display: inline-left;
     flex-direction: column;
 
-    .name-surname{
+    .name-surname-registr{
         font-size: 16px;
         display: flex;
 
     }
-    .input-loginpage {
+    .input-registrpage {
         width:100%;
         margin:0 auto;
         padding:12px  8px;
@@ -44,30 +44,30 @@
         display: flex;
         justify-content: space-between;
     }
-    .eye-icon-loginpage {
+    .eye-icon-registrpage {
         display: flex;
         justify-content: space-between;
         align-items: center;
         font-size: 15px;
         margin-bottom:20px;
     }
-    .flex-loginpage {
+    .flex-registrpage {
         display: flex;
         justify-content: space-between;
         align-items: right;
         font-size:12px;
     }
 
-    .remember-loginpage {
+    .remember-registrpage{
         display: flex;
     }
-    .remember-me-loginpage {
+    .remember-me-registrpage{
         display: inline-block;
         margin-top:5px;
         font-size: 10px;
     }
 
-    .password-field-loginpage {
+    .password-field-registrpage {
         width: 100%;
         position: relative;
 
@@ -79,13 +79,13 @@
         }
     }
 
-    .forgot-loginpage {
+    .forgot-registrpage {
         font-size: 12px;
         .forgot-password {
             display: inline-block;
         }
     }
-    .submit-in-loginpage {
+    .submit-in-registrpage {
         font-size:16px;
         display: flex;
         width: 100%;
@@ -106,7 +106,7 @@
         border:none;     
         }
 
-        .cancel-loginpage {
+        .cancel-registrpage {
         color:black;
         width: 100%;
         border:none;
@@ -118,7 +118,7 @@
         }
     }
 
-    .registration-loginpage {
+    .registration-registrpage {
         text-align: center;
         justify-content: space-between;
         display: flex;
@@ -126,11 +126,11 @@
         margin-left:100px;
         margin-right: 100px;
 
-        .registration-1-loginpage {
+        .registration-1-registrpage {
             color:grey;
             text-decoration: none;
         }
-        .registration-2-loginpage {
+        .registration-2-registrpage {
             color:black;
             font-weight: bold;
             border: none;

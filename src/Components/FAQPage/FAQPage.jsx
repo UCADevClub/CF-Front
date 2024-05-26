@@ -5,7 +5,7 @@ const Faq_1 = () => {
         <div>
             <div>
                 <h1>
-                    Freuquently Asked Questions
+                    Frequently Asked Questions
                 </h1>
             </div>
             <div>

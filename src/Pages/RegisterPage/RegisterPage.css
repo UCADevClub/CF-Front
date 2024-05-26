@@ -6,9 +6,7 @@
     .register{
         margin-right:10011px;
     }
-    
-    z-index: 1;
-    .img-1{
+    .img-1-registr{
         position:fixed;
         top:0;
         left:0;
@@ -17,15 +15,14 @@
         pointer-events: none;
         z-index: 0;
     }
-    .img{
-        z-index: 1;
+    .img-registr{
+        z-index: 0;
     }
 }
-.body{
+.body-registr{
     margin:0;
     padding:0;
-    background:linear-gradient(to bottom right, white,#f7def3);
-    
+    background:linear-gradient(to bottom right, white,#f8d0f1);
 }
 
 
