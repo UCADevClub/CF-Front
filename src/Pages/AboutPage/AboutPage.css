@@ -1,7 +1,7 @@
 
 .content-aboutpage {
     background: linear-gradient(180deg, white, #FBD1EE);
-    padding-left: 150px;
+    padding-left: 80px;
 }
 
 .section-1-aboutpage {
@@ -70,7 +70,7 @@
 
 .portrait-1-aboutpage {
     height: 180px;
-    margin-left: 71px;
+    margin-left: 227px;
 }
 
 .section-4-aboutpage {
@@ -143,6 +143,6 @@
 }
 
 .image-1-aboutpage {
-    height: 343px;
-    width: 965px;
+    height: 398px;
+    width: 1120px;
 }

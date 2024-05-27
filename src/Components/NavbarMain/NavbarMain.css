@@ -3,14 +3,15 @@
 }
 
 .page-navbar-main {
-    height: 48px;
+    height: 60px;
     justify-content: end;
     display: flex;
     position: fixed;
     background-color: white;
     width: 100%;
     z-index: 3;
-    column-gap: 198px;
+    column-gap: 140px;
+    box-shadow: 4px 3px 10.600000381469727px rgba(0,0,0,0.1);
 }
 
 .navbar-main {
@@ -22,7 +23,6 @@
     list-style-type: none;
     color:black;
     margin: 0;
-    margin-left: 60px;
     display: flex;
     justify-content: center;
     padding-top: 6px;
@@ -33,15 +33,17 @@
     color: #00000030;
     font-weight: 600;
     font-size: 19px;
-    margin: 6px 12px;
+    margin: 6px 15px;
+    margin-top: 11px;
 }
 
 .nav-link-2-main {
-    text-decoration: underline solid black 3px;
+    text-decoration: none;
     color: black;
     font-weight: 800;
     font-size: 19px;
-    margin: 6px 12px;
+    margin: 6px 15px;
+    margin-top: 11px;
 }
 
 .search-login-navbar-main {
@@ -70,6 +72,8 @@
     height: 35px;
     border-radius: 6px;
     border: 3px solid #00000030;
+    margin: auto 15px;
+    margin-top: 5px;
 }
 
 .nav-create-img-main {

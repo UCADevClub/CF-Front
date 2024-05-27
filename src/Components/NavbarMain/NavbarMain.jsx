@@ -2,11 +2,27 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import './NavbarMain.css'
 
+const NavbarLink=(path,name)=> {
+    if (path===window.location.pathname) {
+        return(
+            <div className="nav-link-2-main-container">
+                <NavLink to={path} className="nav-link-2-main">{name}</NavLink>
+                <div className="nav-link-2-main-underscore"></div>
+            </div>
+        )
+    }
+    else {
+        return(
+            <NavLink to={path} className="nav-link-1-main">{name}</NavLink>
+        )
+    }
+}
+
 const NavbarMain=()=> {
     return(
         <header className="page-navbar-main">
             <ul className="nav-list-main">
-                <NavLink to="/" className={({ isActive }) => (isActive ? 'nav-link-2-main' : 'nav-link-1-main')}>Главная</NavLink>
+                {NavbarLink("/","Главная")}
                 <NavLink to="/about" className={({ isActive }) => (isActive ? 'nav-link-2-main' : 'nav-link-1-main')}>О нас</NavLink>
                 <NavLink to="/projects" className={({ isActive }) => (isActive ? 'nav-link-2-main' : 'nav-link-1-main')}>Проекты</NavLink>
                 <NavLink to="/create" className="nav-create-main">

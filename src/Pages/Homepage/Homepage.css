@@ -6,7 +6,7 @@
 }
 
 .content-homepage {
-  background-image: linear-gradient(#FAFAFA, #FBD1EE);
+  background-image: linear-gradient(white, #FBD1EE);
   padding-left: 70px;
   display: flex;
 }
