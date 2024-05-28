@@ -23,14 +23,14 @@ const NavbarMain=()=> {
         <header className="page-navbar-main">
             <ul className="nav-list-main">
                 {NavbarLink("/","Главная")}
-                <NavLink to="/about" className={({ isActive }) => (isActive ? 'nav-link-2-main' : 'nav-link-1-main')}>О нас</NavLink>
-                <NavLink to="/projects" className={({ isActive }) => (isActive ? 'nav-link-2-main' : 'nav-link-1-main')}>Проекты</NavLink>
+                {NavbarLink("/about","О нас")}
+                {NavbarLink("/projects","Проекты")}
                 <NavLink to="/create" className="nav-create-main">
                     <img class="nav-create-img-main" src="plus.svg" alt="plus sign" />
                 </NavLink>
-                <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'nav-link-2-main' : 'nav-link-1-main')}>Контакты</NavLink>
-                <NavLink to="/best" className={({ isActive }) => (isActive ? 'nav-link-2-main' : 'nav-link-1-main')}>Лучшее</NavLink>
-                <NavLink to="/faq" className={({ isActive }) => (isActive ? 'nav-link-2-main' : 'nav-link-1-main')}>FAQ</NavLink>
+                {NavbarLink("/contacts","Контакты")}
+                {NavbarLink("/best","Лучшее")}
+                {NavbarLink("/faq","FAQ")}
             </ul>
             <div className="search-login-navbar-main">
                 <NavLink to="/search" className="search-navbar-main">
