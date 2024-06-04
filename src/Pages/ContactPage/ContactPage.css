@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    padding-top: 50px;
 }
 
 .contactpage-form{

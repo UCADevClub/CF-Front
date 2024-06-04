@@ -13,7 +13,6 @@ const ContactHelp = () => {
                 </h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, perferendis corporis. Voluptatibus quibusdam nesciunt maiores delectus, modi atque dicta sit quidem aut praesentium rem nostrum mollitia officia quas in asperiores?
-                    
                 </p>
             </div>
             <div>
