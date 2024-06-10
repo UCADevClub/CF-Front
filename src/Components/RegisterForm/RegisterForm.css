@@ -1,141 +1,181 @@
-*, *::after, *::before{
+*, *::after, *::before {
     box-sizing: border-box;
 }
-.form-wrapper-registrpage {
+
+.form-wrapper1 {
     background-color: none;
-    width:400px;
+    width: 400px;
     position: relative;
+    border: none;
+    height: 100%; /* Ensuring full height without extra space */
 }
-.title-registrpage {
-    font-weight: bold;
-    font-size:24px;
+
+.title1 {
+    font-weight: bolder;
+    color: black;
+    font-size: 24px;
     text-align: center;
-    margin-bottom:1px;
-    margin-top:1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
     line-height: 24px;
-}
-.title-2-registrpage {
-    margin-bottom:15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.title-2 {
+    margin-bottom: 15px;
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
 
-.form-registrpage {
-    width: 100%;
-    border:2px solid #ccc;
+}
+
+.form1 {
+    width: 344px;
     position: relative;
-    background-color: white;
-    display: inline-left;
+    background-color: none;
+    border: none;
+    display: flex;
     flex-direction: column;
+    margin: 0 auto;
+}
 
-    .name-surname-registr{
-        font-size: 16px;
-        display: flex;
+.name-surname1 {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
 
-    }
-    .input-registrpage {
-        width:100%;
-        margin:0 auto;
-        padding:12px  8px;
-        border-radius: 7px;
-        border: none;
-        outline: none; 
-        box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
-        margin-top:15px;
-        display: flex;
-        justify-content: space-between;
-    }
-    .eye-icon-registrpage {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 15px;
-        margin-bottom:20px;
-    }
-    .flex-registrpage {
-        display: flex;
-        justify-content: space-between;
-        align-items: right;
-        font-size:12px;
-    }
+.input1 {
+    width: 49%;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 8px;
+}
 
-    .remember-registrpage{
-        display: flex;
-    }
-    .remember-me-registrpage{
-        display: inline-block;
-        margin-top:5px;
-        font-size: 10px;
-    }
+.input1.full-width {
+    width: 100%;
+}
 
-    .password-field-registrpage {
-        width: 100%;
-        position: relative;
+.password-field1 {
+    width: 100%;
+    position: relative;
+    margin-top: 1px;
+}
 
-        .eye-icon {
-            position: absolute;
-            top: 25%;
-            right: 10px;
+.eye-icon1 {
+    position: absolute;
+    top: 25%;
+    right: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
 
-        }
-    }
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 0px; /* Match the margin-bottom to reduce height */
+}
+.remember1{
+    display: flex;
+    align-items: center;
+    
+}
 
-    .forgot-registrpage {
-        font-size: 12px;
-        .forgot-password {
-            display: inline-block;
-        }
-    }
-    .submit-in-registrpage {
-        font-size:16px;
-        display: flex;
-        width: 100%;
-        padding-top:10px;
-        padding-bottom:7px;
-        border-radius:7px;
-        color:black;
-
-        .submit{
-        width: 100%;
-        background-color: black;
-        color:white;
+.remember-me1 {
+    display: inline-block;
+    font-size: 10px;
+    p{
         font-weight: bold;
-        font-size: 16px;
-        padding-top:10px;
-        padding-bottom:7px;
-        border-radius:7px;   
-        border:none;     
-        }
-
-        .cancel-registrpage {
-        color:black;
-        width: 100%;
-        border:none;
-        padding-top:10px;
-        padding-bottom:7px;
-        border-radius:7px;
-        font-size:16px;
-        font-weight:bold;
-        }
+        color: grey;
     }
-
-    .registration-registrpage {
-        text-align: center;
-        justify-content: space-between;
-        display: flex;
-        font-size: 10px;
-        margin-left:100px;
-        margin-right: 100px;
-
-        .registration-1-registrpage {
-            color:grey;
-            text-decoration: none;
-        }
-        .registration-2-registrpage {
-            color:black;
-            font-weight: bold;
-            border: none;
-            text-decoration: none;
-        }
+    b{
+        color: black;
     }
 }
 
+.submit-in1 {
+    font-size: 16px;
+    width: 100%;
+    padding: 11px 0;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+}
+
+.registration1 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.registration-1 {
+    color: grey;
+    text-decoration: none;
+}
+
+.registration-2 {
+    color: black;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+
+.images-container1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.cancel1 {
+    font-size: 16px;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 11px;
+    border-radius: 7px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.submit1 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 57%;
+    padding: 11px;
+    border-radius: 7px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}

@@ -1,31 +1,35 @@
+.body{
+    background: linear-gradient(to top, #fbddf7,#e5cae4 0%, white 50%, white 100%);
+    margin: 0;
+    padding: 0;
+}
 .register-page {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
-    .register{
-        margin-right:10011px;
+    justify-content: space-between;
+    .register1{
+        margin-right:150px;
+        margin-top: 60px;
     }
-    .img-1-registr{
+    z-index: 1;
+    .img-1{
         position:fixed;
         top:0;
         left:0;
-        width:1500px;
-        height:500px;
+        width:1300px;
+        height:550px;
         pointer-events: none;
         z-index: 0;
+        transform: rotate(15deg);
     }
-    .img-registr{
-        z-index: 0;
-    }
+    .img {
+        z-index: 1;
+        img{
+            object-fit: cover; /* Ensure the image covers the entire container */
+            width: 400px; /* Set width to auto */
+            height: 531px/* Set height to cover the entire viewport height */
+             /* Position the image absolutely */
+                }
+         }
 }
-.body-registr{
-    margin:0;
-    padding:0;
-    background:linear-gradient(to bottom right, white,#f8d0f1);
-}
-
-
-
-
-
