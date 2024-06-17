@@ -1,32 +1,45 @@
-.help-contact1{
+.help-contact{
     width: 600px;
     font-size: 15px;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     h1{
         font-size: 32px;
         font-weight: 500;
         text-align: left;
         margin: 0;
     }
-    p{
+    p {
         font-size: 13px;
     }
-    .names-1{
+    .names-contacthelp {
+        font-size: 16px;
+        margin: 0;
         margin-bottom: 10px;
     }
-    .option{
-        margin-top: 50px;
+    .option-contacthelp {
+        margin-top: 30px;
         font-size: 15px;
+        display: flex;
+        align-items: flex-start;
     }
     img{
         width: 20px;
         margin-right: 10px;
     }
-    button{
+    .button-contacthelp{
         background: none;
         border:none;
     }
-    
+    .hr-contacthelp {
+        width: 60%;
+        margin: 0 10px;
+        margin-top: 30px;
+        border: 1px solid #0000004D;
+    }
+    .topics-contacthelp {
+        margin-top: 50px;
+    }
+
 }
 h3{
     font-size: 16px;
