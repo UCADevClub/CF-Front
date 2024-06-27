@@ -1,0 +1,36 @@
+.login-page{
+    background: linear-gradient(to top, #fbddf7,#fbddf7 0%, white 50%, white 100%);
+}
+
+.login-page-hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    .login{
+        margin-right: 150px;
+        margin-top:60px;
+        z-index: 2;
+    }
+    z-index: 1;
+    .img-1{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:70%;
+        pointer-events: none;
+        z-index: 0;
+    }
+    .img-hand{
+        z-index: 1;
+        margin-left: 0px;
+        padding-left: 0;
+        img{
+            background: none;
+            height: 400px;
+            width: 650px;
+            margin-top: 131px;
+        }
+    }
+}

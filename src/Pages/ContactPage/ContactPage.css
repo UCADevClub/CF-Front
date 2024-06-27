@@ -1,0 +1,52 @@
+.contact-page {
+    background: linear-gradient(180deg, rgba(250, 250, 250, 0) 50%, #FBD1EE);
+}
+
+.contact-help-form {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.contactpage-form{
+    margin-top: 48px;
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.contactpage-help{
+    margin-top: 48px;
+    flex:2;
+    margin-left: 50px;
+    width: 50px;
+}
+
+.contact-info{
+    .information{
+        margin-top: 60px;
+        height: 200px;
+        margin-right: 65px;
+        border-radius: 10px;
+        box-shadow: 4px 3px 27.3px 0px #0000001A;
+    }
+}
+
+.logo-contactpage {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.36em;
+    color: #FB7178;
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.logo-crowd-contactpage {
+    color: black;
+}

@@ -1,0 +1,175 @@
+.divider-homepage {
+  height: 90px;
+  width: 1px;
+  background-color: #FFFFFF;
+  box-shadow: 4px 3px 10.600000381469727px rgba(0,0,0,0.1);
+}
+
+.content-homepage {
+  background-image: linear-gradient(white, #FBD1EE);
+  padding-left: 70px;
+  display: flex;
+}
+
+.title-homepage {
+  font-weight: 700;
+  font-size: 58px;
+  margin-top: 107px;
+  margin-bottom: 9px;
+  width: 438px;
+  line-height: 0.9;
+}
+
+.description-homepage {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0;
+}
+
+.buttons-homepage {
+  display: flex;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.button-invest-homepage {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 19px;
+  color: white;
+  background-color: #F8C76C;
+  border-radius: 6px;
+  width: 210px;
+  height: 46px;
+  text-align: center;
+  box-shadow: 4px 3px 10.600000381469727px rgba(0,0,0,0.1);
+  line-height: 46px;
+  text-decoration: none;
+}
+
+.button-projects-homepage {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 19px;
+  color: #010101;
+  background-color: white;
+  border-radius: 6px;
+  width: 163px;
+  height: 46px;
+  text-align: center;
+  box-shadow: 4px 3px 10.600000381469727px rgba(0,0,0,0.1);
+  line-height: 46px;
+  text-decoration: none;
+}
+
+.examples-homepage {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.statistics-homepage {
+  margin: 0;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.number-homepage {
+  font-weight: 500;
+  font-size: 38px;
+  color: #FB7178;
+  height: 27px;
+  text-align: left;
+  margin: 0;
+  align-self: flex-start;
+  max-width: 115px;
+}
+
+.descriptor-homepage {
+  font-weight: 700;
+  font-size: 12px;
+  color: black;
+  height: 28px;
+  margin-top: 24px;
+  align-self: flex-start;
+  max-width: 116px;
+}
+
+.logo-homepage {
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.36em;
+  color: #FB7178;
+  margin-top: 71px;
+}
+
+.logo-crowd-homepage {
+  color: black;
+}
+
+.text-homepage {
+  width: 457px;
+}
+
+.image-homepage {
+  position: absolute;
+  top: 73px;
+  left: 79px;
+  z-index: 4;
+  height: 460px;
+  width: 694px;
+}
+
+.circle-1-homepage {
+  position: absolute;
+  width: 647px;
+  height: 647px;
+  top: 66px;
+  left: 160px;
+  background: linear-gradient(180deg, #FBD0ED 19.01%, #FC9DA2 100%);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.circle-2-homepage {
+  position: absolute;
+  top: 93px;
+  left: 606px;
+  width: 159px;
+  height: 159px;
+  border: 4px solid #F8C76C;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.circle-3-homepage {
+  position: absolute;
+  top: 183px;
+  left: 79px;
+  width: 220px;
+  height: 220px;
+  border: 4px solid #F8C76C;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.circle-4-homepage {
+  position: absolute;
+  top: 17px;
+  left: 407px;
+  width: 103px;
+  height: 103px;
+  border: 4px solid #F8C76C;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.decoration-homepage {
+  position: relative;
+  margin-top: 53px;
+  width: 907px;
+  overflow: hidden;
+}

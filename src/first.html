@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's go</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+        const Book = (props) => {
+            console.log(props)
+            return React.createElement('div', {}, [
+                React.createElement('h2', {}, props.name),
+                React.createElement('p', {}, props.year),
+                React.createElement('p', {}, props.price)
+            ])
+        }
+
+        const App = () => {
+            return React.createElement('div',{}, [
+            React.createElement('h1', {id: 'Hello', className: 'class1'}, 'Hello React',),
+            React.createElement(Book, {name: 'Java', price:'200$', year:'2020'} ),
+            React.createElement(Book, {name:'python', price:'100$', year:'2021'})
+        ])
+        }
+        ReactDOM.render(React.createElement(App), document.getElementById('root')); 
+    </script>
+</body>
+</html>
